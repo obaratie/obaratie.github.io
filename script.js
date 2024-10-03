@@ -33,7 +33,7 @@ if (instagramIcon) {
 }
 
 function goToHome() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
 
 document.getElementById("logo").addEventListener("click", goToHome);
