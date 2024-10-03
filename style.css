@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #F19CBE 0%, #FEF7F1 16.5%, #FFFBF4 84%, #8BC6C5 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #FFFBF4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 390px;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* Logo class */
+.logo {
+  position: absolute;
+  width: 192px;
+  height: 181px;
+  left: 99px;
+  background: url(/assets/logo.png) no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.menu-title {
+  font-size: 20px;
+  font-family: 'Times', serif;
+  margin-top: 190px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: url(/assets/feuille.png) no-repeat center center;
+}
+
+.menu-row {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-button {
+  width: 171px;
+  height: 97px;
+  background: #FFF6EA;
+  opacity: 0.8;
+  border-radius: 30px;
+  font-family: 'Times', serif;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-button.center {
+  margin: 0 auto;
+}
+
+.menu-button:hover {
+  opacity: 1;
+}
+
+.adresse {
+  font-family: 'Times', serif;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+  bottom: -50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adresse-icon {
+  width: 53px;
+  height: 44px;
+  background: url('/assets/location.png') no-repeat center center;
+  background-size: contain;
+}
+
+.halal-icon {
+  position: absolute;
+  width: 66px;
+  height: 53px;
+  left: 4px;
+  top: 776px;
+  background: url('/assets/halal.png') no-repeat center center;
+  background-size: contain;
+}
+
+.instagram-icon {
+  position: absolute;
+  width: 52px;
+  height: 33px;
+  left: 328px;
+  top: 787px;
+  background: url('/assets/instagram.png') no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.menu-content {
+  position: absolute;
+  width: 289px;
+  height: 490px;
+  left: 56px;
+  top: 297px;
+  background: #FFF6EA;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 25px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.menu-content #name {
+  font-family: 'Abril Fatface', serif;
+  font-size: 16px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.menu-content p {
+  font-family: 'Times', serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+}
+
+.menu-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.menu-content::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.menu-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
